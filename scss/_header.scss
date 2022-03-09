@@ -1,0 +1,39 @@
+/*HERO SECTION*/
+header {
+    margin-top: 55px;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)), url(../assets/img/hero.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &__title{
+        font-size: 4rem;
+        color: #fff;
+    }
+
+    & .parrafo-principal{
+        font-size: 2rem;
+        color: $mainColor;
+    }
+}
+
+
+
+
+/*CAROUSEL*/
+.carousel-item {
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 400px;
+}

@@ -1,0 +1,96 @@
+@import './variables';
+@import './header';
+@import './about';
+@import './coder-pet';
+@import './form';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*FOOTER*/
+
+footer {
+    padding: 3rem;
+    text-align: center;
+}
+
+/*==== MEDIA QUERIES (MEDIUM DEVICES) ====*/
+
+@media screen and (max-width: 900px) {
+
+    .about__container p {
+        width: 100%;
+    }
+
+    .about__container__img {
+        width: 70%;
+        margin: 2rem;
+    }
+
+    .form{
+        flex-direction: column;
+    }
+
+    .form__img{
+        width: 70%;
+    }
+    .form__content{
+        width: 90%;
+    }
+}
+
+
+/*==== MEDIA QUERIES (MEDIUM DEVICES) ====*/
+
+@media screen and (max-width: 768px) {
+
+
+
+    .coder-pet__container {
+
+        justify-content: center;
+    }
+}
+
+/*==== MEDIA QUERIES (SMALL DEVICES) ====*/
+
+@media screen and (max-width: 480px) {
+
+    .about__container p {
+        font-size: 1rem;
+        width: 100%;
+        padding: 0;
+    }
+
+    .about__container__img {
+        width: 100%;
+        margin: 2rem;
+    }
+
+    .coder-pet__content-img {
+        width: 300px;
+
+    }
+
+    .coder-pet__content {
+        width: 300px;
+    }
+
+.form{
+    padding: 1rem;
+}
+    .form__img{
+        width: 80%;
+    }
+    .form__content{
+        width: 100%;
+    }
+}
